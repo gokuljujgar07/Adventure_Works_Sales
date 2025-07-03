@@ -7,7 +7,10 @@
 The Adventure Works Sales Dashboard provides strategic insights into the performance of a fictional bicycle company over the period 2020–2022. Built using the Adventure Works dataset, it integrates data from sales, customers, products, and returns to deliver a comprehensive view of business operations. 
 The dashboard highlights key metrics such as customer behavior, product performance, regional sales distribution, and return patterns. Through dynamic visualizations and KPIs, it supports data-driven decision-making and uncovers trends that drive strategic business growth.
 
----
+
+![Overview](https://github.com/user-attachments/assets/34636b7b-0c87-455d-94a6-2e872468ff5b)
+
+
 
 ## 💡 Tools & Skills 
 
@@ -56,7 +59,6 @@ Created a centralized **Measure Table** with the following DAX measures:
 - Profit_Margin_%
 - Return_Rate_%
 
----
 
 ## 🚀 Key Features
 
@@ -69,9 +71,10 @@ Created a centralized **Measure Table** with the following DAX measures:
 - 🧺 **Product Category Analysis**: Insights by Bikes, Accessories, and Clothing — including return behaviors and order patterns.
 - 🎨 **Consistent Branding**: Custom color palette and branded visuals using Adventure Works' logo and theme.
 
-## 📊 DashBorad
+---
 
-<img width="725" alt="Screenshot_1" src="https://github.com/user-attachments/assets/16599c54-a427-40e5-8fec-c383a3677639" />
+![Screenshot_1](https://github.com/user-attachments/assets/16599c54-a427-40e5-8fec-c383a3677639)
+
 
 ---
 
@@ -96,11 +99,8 @@ Created a centralized **Measure Table** with the following DAX measures:
 - 🌍 **Top Region:** Europe
 - 🚲 **Top Product:** Mountain-200 Black, 46
 
- ---
+ 
 
-## 📚 Data Story
-
-Adventure Works is a company that sells bicycles, clothes, and accessories in places like Europe, North America, and the Pacific. To understand how the business is doing, they collected sales data from the last three years. This project puts all the data together and adds extra details like customer age, income, and product types. The dashboard helps answer simple questions like: Where are we selling the most? Which products are popular? Who are our main customers? Are we making good profit? With easy charts and numbers, the report helps the company make better decisions and grow their business.
 
 ## 🔍 Top Insights 
 
@@ -122,11 +122,17 @@ Adventure Works is a company that sells bicycles, clothes, and accessories in pl
 
 5. 📅 Time Trends
    - Sales and revenue were higher at the beginning and end of each year, showing good times for promotions or sales events.
+---
 
-  
-  <img width="727" alt="Screenshot_2" src="https://github.com/user-attachments/assets/3df68078-f9db-405d-b2d4-d82b2ac7b4c7" />
+![Screenshot_2](https://github.com/user-attachments/assets/3df68078-f9db-405d-b2d4-d82b2ac7b4c7)
 
-  --- 
+ --- 
+
+## 📚 Data Story
+
+Adventure Works is a company that sells bicycles, clothes, and accessories in places like Europe, North America, and the Pacific. To understand how the business is doing, they collected sales data from the last three years. This project puts all the data together and adds extra details like customer age, income, and product types. The dashboard helps answer simple questions like: Where are we selling the most? Which products are popular? Who are our main customers? Are we making good profit? With easy charts and numbers, the report helps the company make better decisions and grow their business.
+
+---
 
 ## ✅ Recommendations
 
@@ -136,4 +142,4 @@ Adventure Works is a company that sells bicycles, clothes, and accessories in pl
 - ✅ **Target Middle and Upper Middle Class customers**: Based on consistent high-spending behavior.
 - ✅ **Leverage Q1 & Q4 seasonality**: Launch promotional campaigns to maximize seasonal demand.
 
-  
+

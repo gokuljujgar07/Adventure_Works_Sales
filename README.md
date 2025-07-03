@@ -1,14 +1,13 @@
-# Adventure_Works_Sales
+# Adventure Works Sales Analysis
 
-# Adventureworks_Cycle_Sales
-🧭 Adventure Works Power BI Project
-This is a Power BI dashboard project built using the Adventure Works dataset. It provides business insights using sales, customer, product, and return data from the Adventure Works company.
 
-<img src="Raw Data Files/AdventureWorks.png" width=1000>
 
 ## 📌 Overview
 
-The Adventure Works Sales Dashboard is designed to provide strategic insights into the performance of a fictional bicycle company over three years (2020–2022). It merges data from various sources to provide a comprehensive view of customer behavior, product performance, geographic distribution, and sales trends. The report enables data-driven decision-making through dynamic visualizations, KPIs, and trend analysis.
+The Adventure Works Sales Dashboard provides strategic insights into the performance of a fictional bicycle company over the period 2020–2022. Built using the Adventure Works dataset, it integrates data from sales, customers, products, and returns to deliver a comprehensive view of business operations. 
+The dashboard highlights key metrics such as customer behavior, product performance, regional sales distribution, and return patterns. Through dynamic visualizations and KPIs, it supports data-driven decision-making and uncovers trends that drive strategic business growth.
+
+---
 
 ## 💡 Tools & Skills 
 
@@ -20,42 +19,44 @@ The Adventure Works Sales Dashboard is designed to provide strategic insights in
 
 ## 🧹 Data Cleaning & Modeling
 
-### 🗓️ Calendar Table
+###  Calendar Table
 Created a custom calendar table to support time intelligence features with:
-- `Month Name`
-- `Day Name`
-- `Quarter`
-- `Start of Quarter`
-- `Start of Month`
-- `Start of Week`
+- Month Name
+- Day Name
+- Quarter
+- Start of Quarter
+- Start of Month
+- Start of Week
 
-### 👥 Customer Lookup Table
+###  Customer Lookup Table
 Added the following enriched columns:
-- `Full Name` (First + Last)
-- `Is_Parent` (Flag for customers with children)
-- `Age Group`
-- `Income Level`: categorized as:
+- Full Name (First + Last)
+- Is_Parent (Flag for customers with children)
+- Age Group
+- Income Level: categorized as:
   - Lower Middle Class  
   - Middle Class  
   - Upper Middle Class
 
-### 🚴 Product Lookup Table
-- Added `Gender Type` to define if the product is for Men, Women, or Unisex.
+###  Product Lookup Table
+- Added **Gender Type** to define if the product is for Men, Women, or Unisex.
 
-### 🧾 Sales Final Table
+###  Sales Final Table
 Merged yearly sales data (2020, 2021, 2022) into one unified **Sales Final Table** for consolidated analysis.
 
-### 📐 Measures Table
+###  Measures Table
 Created a centralized **Measure Table** with the following DAX measures:
 
-- `Total_Revenue`
-- `Total_Cost`
-- `Total_Orders`
-- `Total_Quantity_Sold`
-- `Total_Returned_Quantity`
-- `Profit_Margin`
-- `Profit_Margin_%`
-- `Return_Rate_%`
+- Total_Revenue
+- Total_Cost
+- Total_Orders
+- Total_Quantity_Sold
+- Total_Returned_Quantity
+- Profit_Margin
+- Profit_Margin_%
+- Return_Rate_%
+
+---
 
 ## 🚀 Key Features
 
@@ -68,14 +69,17 @@ Created a centralized **Measure Table** with the following DAX measures:
 - 🧺 **Product Category Analysis**: Insights by Bikes, Accessories, and Clothing — including return behaviors and order patterns.
 - 🎨 **Consistent Branding**: Custom color palette and branded visuals using Adventure Works' logo and theme.
 
-## 📊DashBorad
-![Dashboard Screenshot](DashBoard_Image.PNG)
+## 📊 DashBorad
 
-**🔍 Key Visuals:**
-- 🌍 Sales and orders by **continent** and **country**
-- 🧺 Top 10 best-selling **products**
-- 🛍️ Orders by **category** (Accessories, Bikes, Clothing)
-- 📆 Monthly **trendline** of total revenue (2020–2022)
+<img width="725" alt="Screenshot_1" src="https://github.com/user-attachments/assets/16599c54-a427-40e5-8fec-c383a3677639" />
+
+---
+
+## 📊 Key Visuals
+-  Sales and orders by **continent** and **country**
+-  Top 10 best-selling **products**
+-  Orders by **category** (Accessories, Bikes, Clothing)
+-  Monthly **trendline** of total revenue (2020–2022)
 
 🔍 Key Insights
 - Track which product categories drive the most revenue.
@@ -83,7 +87,7 @@ Created a centralized **Measure Table** with the following DAX measures:
 - Identify top-performing regions or customer types.
 - Understand return patterns and how they affect net sales.
 
-  ## ✨ Key Highlights
+## ✨ Key Highlights
 
 - 💰 **Total Revenue:** $24.91M
 - 📦 **Total Orders:** 25K
@@ -92,7 +96,9 @@ Created a centralized **Measure Table** with the following DAX measures:
 - 🌍 **Top Region:** Europe
 - 🚲 **Top Product:** Mountain-200 Black, 46
 
-  ## 📚 Data Story
+ ---
+
+## 📚 Data Story
 
 Adventure Works is a company that sells bicycles, clothes, and accessories in places like Europe, North America, and the Pacific. To understand how the business is doing, they collected sales data from the last three years. This project puts all the data together and adds extra details like customer age, income, and product types. The dashboard helps answer simple questions like: Where are we selling the most? Which products are popular? Who are our main customers? Are we making good profit? With easy charts and numbers, the report helps the company make better decisions and grow their business.
 
@@ -117,20 +123,17 @@ Adventure Works is a company that sells bicycles, clothes, and accessories in pl
 5. 📅 Time Trends
    - Sales and revenue were higher at the beginning and end of each year, showing good times for promotions or sales events.
 
+  
+  <img width="727" alt="Screenshot_2" src="https://github.com/user-attachments/assets/3df68078-f9db-405d-b2d4-d82b2ac7b4c7" />
+
+  --- 
+
 ## ✅ Recommendations
 
-- 🏷️ **Double down on Europe**: Continue investing in marketing and distribution in Europe due to its superior revenue performance.
-- 🚴‍♀️ **Expand Mountain Bike product line**: Introduce new models/variations in the Mountain-200 series.
-- 👕 **Reduce Clothing return rate**: Re-evaluate sizing or product quality and optimize return policies.
-- 🎯 **Target Middle and Upper Middle Class customers**: Based on consistent high-spending behavior.
-- 📅 **Leverage Q1 & Q4 seasonality**: Launch promotional campaigns to maximize seasonal demand.
+- ✅ **Double down on Europe**: Continue investing in marketing and distribution in Europe due to its superior revenue performance.
+- ✅ **Expand Mountain Bike product line**: Introduce new models/variations in the Mountain-200 series.
+- ✅ **Reduce Clothing return rate**: Re-evaluate sizing or product quality and optimize return policies.
+- ✅ **Target Middle and Upper Middle Class customers**: Based on consistent high-spending behavior.
+- ✅ **Leverage Q1 & Q4 seasonality**: Launch promotional campaigns to maximize seasonal demand.
 
-  ## 🧾 Conclusion (Simple Version)
-
-This Power BI project shows how raw sales data can be turned into useful business insights. After combining and cleaning data from three years, the dashboard helps us:
-
-- Understand overall business performance using key metrics
-- Compare sales across regions and product categories
-- Learn more about customer behavior and trends
-
-The dashboard gives managers the information they need to improve product planning, reduce returns, focus on valuable customers, and grow in the right regions. It also shows how Power BI can be used for clear and effective data analysis and reporting.
+  
